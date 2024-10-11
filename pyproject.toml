@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "*"
+transformers = "*"
+librosa = "*"
+google-generativeai = "*"
+python-dotenv = "*"
+numpy = "*"
+
+# Use a path for the PyAudio wheel file
+pyaudio = {path = "PyAudio-0.2.11-cp310-cp310-win_amd64.whl"}
+
+# Optional: specify your own project
+[tool.poetry]
+name = "uzbekspeechtotext"
+version = "0.1.0"
+description = "Uzbek Speech to Text application"
