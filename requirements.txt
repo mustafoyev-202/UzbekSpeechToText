@@ -1,9 +1,9 @@
 torch
 transformers
 librosa
-numpy
 pyaudio
 google-generativeai
 python-dotenv
+numpy
 
 -e .
